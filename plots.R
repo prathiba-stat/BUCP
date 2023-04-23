@@ -7,7 +7,7 @@ paramMCMCsample = x
 # Plot the posterior with HDI and ROPE:
 postInfo = plotPost_upper( paramMCMCsample , compVal=compVal ,
                      ROPE=compVal+c(-ropeRad,ropeRad) , showMode=TRUE ,
-                     credMass=HDImass , xlab=expression(mu*" ratio"), main = 
+                     credMass=HDImass , xlab="d", main = 
                        plotname, lims1)
 }
 
